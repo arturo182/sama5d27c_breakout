@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Package_BGA_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/Package_BGA_Extra.pretty)(options "")(descr ""))
+)

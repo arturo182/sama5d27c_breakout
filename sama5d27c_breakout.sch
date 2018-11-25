@@ -1,0 +1,88 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CPU_Microchip_SAMA:SAMA5D2x-SIP U1
+U 1 1 5BFF2BE1
+P 1650 3100
+F 0 "U1" H 1900 4750 50  0000 R CNN
+F 1 "SAMA5D2x-SIP" H 1650 1350 50  0000 C CNN
+F 2 "Package_BGA_Extra:TFBGA-289_17x17_14.0x14.0mm" H 2400 4300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/268/600001484A-1150115.pdf" H 1650 -100 50  0001 C CNN
+	1    1650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_Microchip_SAMA:SAMA5D2x-SIP U1
+U 2 1 5BFFCBE3
+P 2800 3100
+F 0 "U1" H 3050 4750 50  0000 R CNN
+F 1 "SAMA5D2x-SIP" H 2800 1350 50  0000 C CNN
+F 2 "Package_BGA_Extra:TFBGA-289_17x17_14.0x14.0mm" H 3550 4300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/268/600001484A-1150115.pdf" H 2800 -100 50  0001 C CNN
+	2    2800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_Microchip_SAMA:SAMA5D2x-SIP U1
+U 3 1 5C00795B
+P 3900 3100
+F 0 "U1" H 4150 4750 50  0000 R CNN
+F 1 "SAMA5D2x-SIP" H 3900 1350 50  0000 C CNN
+F 2 "Package_BGA_Extra:TFBGA-289_17x17_14.0x14.0mm" H 4650 4300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/268/600001484A-1150115.pdf" H 3900 -100 50  0001 C CNN
+	3    3900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_Microchip_SAMA:SAMA5D2x-SIP U1
+U 4 1 5C00EB50
+P 5050 3100
+F 0 "U1" H 5300 4750 50  0000 R CNN
+F 1 "SAMA5D2x-SIP" H 5050 1350 50  0000 C CNN
+F 2 "Package_BGA_Extra:TFBGA-289_17x17_14.0x14.0mm" H 5800 4300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/268/600001484A-1150115.pdf" H 5050 -100 50  0001 C CNN
+	4    5050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_Microchip_SAMA:SAMA5D2x-SIP U1
+U 6 1 5C01FE80
+P 7000 4850
+F 0 "U1" H 7500 6100 50  0000 R CNN
+F 1 "SAMA5D2x-SIP" H 7000 3700 50  0000 C CNN
+F 2 "Package_BGA_Extra:TFBGA-289_17x17_14.0x14.0mm" H 7750 6050 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/268/600001484A-1150115.pdf" H 7000 1650 50  0001 C CNN
+	6    7000 4850
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 800  6750 700  700 
+U 5C04E5EA
+F0 "Power" 50
+F1 "power.sch" 50
+$EndSheet
+$Comp
+L CPU_Microchip_SAMA:SAMA5D2x-SIP U1
+U 7 1 5C028A17
+P 9050 2300
+F 0 "U1" H 9650 2750 50  0000 R CNN
+F 1 "SAMA5D2x-SIP" H 9050 1850 50  0000 C CNN
+F 2 "Package_BGA_Extra:TFBGA-289_17x17_14.0x14.0mm" H 9800 3500 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/268/600001484A-1150115.pdf" H 9050 -900 50  0001 C CNN
+	7    9050 2300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
