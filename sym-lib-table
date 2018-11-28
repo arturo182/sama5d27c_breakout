@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name CPU_Microchip_SAMA)(type Legacy)(uri ${KIPRJMOD}/library/CPU_Microchip_SAMA.lib)(options "")(descr ""))
   (lib (name power_extra)(type Legacy)(uri ${KIPRJMOD}/library/power_extra.lib)(options "")(descr ""))
+  (lib (name Memory_Flash_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Memory_Flash_Extra.lib)(options "")(descr ""))
+  (lib (name Power_Management_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Power_Management_Extra.lib)(options "")(descr ""))
 )
