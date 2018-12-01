@@ -883,6 +883,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_SON.3dshapes/WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 2 1.66 1.5))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C020D7E)
@@ -1677,6 +1682,11 @@
       (net 214 /SDMMC1_CK))
     (pad U17 smd circle (at 6.4 6.4) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask)
       (net 184 /SDMMC0_DAT4))
+    (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD.step
+      (at (xyz 0 0 0))
+      (scale (xyz 0.823 0.823 0.823))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TestPoint:TestPoint_Pad_D1.5mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5C020BDE)
@@ -4721,9 +4731,9 @@
       (net 222 "Net-(L3-Pad2)"))
     (pad 1 smd rect (at -1.1 0) (size 0.8 2.7) (layers F.Cu F.Paste F.Mask)
       (net 18 +3V3))
-    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_MD-3030.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0805_2012Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1.25 1.66 0.6))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4757,9 +4767,9 @@
       (net 221 "Net-(L2-Pad2)"))
     (pad 1 smd rect (at -1.1 0) (size 0.8 2.7) (layers F.Cu F.Paste F.Mask)
       (net 104 +1V2))
-    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_MD-3030.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0805_2012Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1.25 1.66 0.6))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4793,9 +4803,9 @@
       (net 220 "Net-(L1-Pad2)"))
     (pad 1 smd rect (at -1.1 0) (size 0.8 2.7) (layers F.Cu F.Paste F.Mask)
       (net 93 +1V35))
-    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_MD-3030.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0805_2012Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1.25 1.66 0.6))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6091,15 +6101,15 @@
       (net 129 "Net-(D2-Pad3)"))
     (pad 2 smd rect (at -0.8 -0.4 180) (size 0.8 0.6) (layers F.Cu F.Paste F.Mask)
       (net 130 "Net-(D2-Pad2)"))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0603.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric_Castellated.step
+      (offset (xyz 0 -0.4 0))
+      (scale (xyz 1 1 0.6))
+      (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0603.wrl
-      (offset (xyz 0 -0.7999999879852057 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric_Castellated.step
+      (offset (xyz 0 0.4 0))
+      (scale (xyz 1 1 0.6))
+      (rotate (xyz 0 0 0))
     )
   )
 
