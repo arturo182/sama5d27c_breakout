@@ -1,4 +1,4 @@
-update=02/12/2018 17:12:31
+update=02/12/2018 21:53:54
 version=1
 last_client=kicad
 [general]
@@ -71,6 +71,9 @@ SolderPasteRatio=-0
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu.GND
 Type=1
+[pcbnew/Layer.In2.Cu]
+Name=In2.Cu.VDD
+Type=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=Power
