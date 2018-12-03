@@ -179,6 +179,8 @@ $Comp
 L Connector:USB_C_Receptacle_USB2.0 J7
 U 1 1 5CD3A66C
 P 4100 4650
+AR Path="/5CD3A66C" Ref="J7"  Part="1" 
+AR Path="/5CCDEAD5/5CD3A66C" Ref="J7"  Part="1" 
 F 0 "J7" H 4500 5400 50  0000 R CNN
 F 1 "USB_C_Receptacle_USB2.0" V 3650 4650 50  0000 C CNN
 F 2 "Connector_USB_Extra:USB_C_Receptacle_GT-USB-7010" H 4250 4650 50  0001 C CNN
@@ -518,8 +520,6 @@ Text HLabel 4550 2550 2    50   BiDi ~ 0
 A_D-
 Text Label 8100 4250 0    50   ~ 0
 B_VBUS
-Text Label 4650 2250 0    50   ~ 0
-A_VBUS
 Wire Wire Line
 	8000 4250 8100 4250
 Wire Wire Line
