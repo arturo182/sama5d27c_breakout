@@ -136,14 +136,6 @@ Wire Wire Line
 	3400 5100 3450 5100
 Wire Wire Line
 	3400 5200 3450 5200
-Text Notes 3500 4400 0    50   ~ 0
-PA23/FLEXCOM1_IO1/SPI1_MOSI/QSPI0_CS\n
-Text Notes 3500 4500 0    50   ~ 0
-PA24/FLEXCOM1_IO0/SPI1_MISO/QSPI0_IO0\n
-Text Notes 3500 4600 0    50   ~ 0
-PA25/FLEXCOM1_IO3/SPI1_NPCS0/QSPI0_IO1\n
-Text Notes 3500 4700 0    50   ~ 0
-PA26/FLEXCOM1_IO4/SPI1_NPCS1/QSPI0_IO2\n
 Wire Wire Line
 	6500 2100 6550 2100
 Wire Wire Line
@@ -272,28 +264,6 @@ Wire Wire Line
 	8850 5100 8900 5100
 Wire Wire Line
 	8850 5200 8900 5200
-Text Notes 8950 3200 0    50   ~ 0
-PC11/ISI_D2/TCLK4/CANRX0/A0/NBS0\n
-Text Notes 8950 3300 0    50   ~ 0
-PC12/ISI_D3/URXD3/TK0/A1\n
-Text Notes 8950 3400 0    50   ~ 0
-PC13/ISI_D4/UTXD3/TF0/A2\n
-Text Notes 8950 3500 0    50   ~ 0
-PC14/ISI_D5/TD0/A3\n
-Text Notes 8950 3600 0    50   ~ 0
-PC15/ISI_D6/RD0/A4\n
-Text Notes 8950 3700 0    50   ~ 0
-PC16/ISI_D7/RK0/A5\n
-Text Notes 8950 3800 0    50   ~ 0
-PC17/ISI_D8/RF0/A6\n
-Text Notes 8950 4400 0    50   ~ 0
-PC23/ISI_HSYNC/A12\n
-Text Notes 8950 4500 0    50   ~ 0
-PC24/ISI_MCK/A13\n
-Text Notes 8950 4700 0    50   ~ 0
-PC26/CANTX1/A15\n
-Text Notes 8950 4800 0    50   ~ 0
-PC27/PCK1/CANRX1/A16\n
 Wire Wire Line
 	11750 2100 11800 2100
 Wire Wire Line
@@ -358,40 +328,6 @@ Wire Wire Line
 	11750 5100 11800 5100
 Wire Wire Line
 	11750 5200 11800 5200
-Text Notes 11850 2700 0    50   ~ 0
-PD06/PCK1/NCS2/PTCROW3\n
-Text Notes 11850 2800 0    50   ~ 0
-PD07/NWR1/NBS1/PTCROW4\n
-Text Notes 11850 2900 0    50   ~ 0
-PD08/NANDRDY/PTCROW5\n
-Text Notes 11850 3000 0    50   ~ 0
-GTXCK_PD09
-Text Notes 11850 3100 0    50   ~ 0
-GTXEN_PD10
-Text Notes 11850 3200 0    50   ~ 0
-GRXDV_PD11
-Text Notes 11850 3300 0    50   ~ 0
-GRXDV_PD11
-Text Notes 11850 3400 0    50   ~ 0
-GRX0_PD13
-Text Notes 11850 3500 0    50   ~ 0
-GRX1_PD14
-Text Notes 11850 3600 0    50   ~ 0
-GTX0_PD15
-Text Notes 11850 3700 0    50   ~ 0
-GTX1_PD16
-Text Notes 11850 3800 0    50   ~ 0
-GMDC_PD17
-Text Notes 11850 3900 0    50   ~ 0
-GMDIO_PD18
-Text Notes 11850 4400 0    50   ~ 0
-PD23/DBGU_RXD\n
-Text Notes 11850 4500 0    50   ~ 0
-PD24/DBGU_TXD\n
-Text Notes 11850 4600 0    50   ~ 0
-PD25/AD6\n
-Text Notes 11850 4700 0    50   ~ 0
-PD26/AD7\n
 Text Label 6550 2600 0    50   ~ 0
 QSPI1_SCK
 Text Label 6550 2700 0    50   ~ 0
@@ -404,7 +340,7 @@ Text Label 6550 3000 0    50   ~ 0
 QSPI1_IO2
 Text Label 6550 3100 0    50   ~ 0
 QSPI1_IO3
-Text Label 3450 3300 0    50   ~ 0
+Text Label 11800 3700 0    50   ~ 0
 PMIC_CHGLEV
 Text Label 3150 7000 2    50   ~ 0
 PMIC_CHGLEV
@@ -438,7 +374,7 @@ Wire Wire Line
 	4250 6600 4300 6600
 Text Label 4300 6600 0    50   ~ 0
 PMIC_LBO
-Text Label 8900 3000 0    50   ~ 0
+Text Label 11800 2700 0    50   ~ 0
 PMIC_LBO
 Wire Wire Line
 	3150 7000 3200 7000
@@ -508,19 +444,19 @@ Text Label 7850 9250 0    50   ~ 0
 SDMMC0_DAT1
 Text Label 7250 9350 2    50   ~ 0
 SDMMC0_DAT2
-Text Label 3450 5000 0    50   ~ 0
+Text Label 11800 3400 0    50   ~ 0
 USR_BTN
 Text Label 11800 4100 0    50   ~ 0
 USBA_VBUS_5V
-Text Label 3450 4800 0    50   ~ 0
+Text Label 11800 3600 0    50   ~ 0
 USBB_PWR_EN
 Text Label 11800 4000 0    50   ~ 0
 USBB_OVERCURR
-Text Label 3450 3100 0    50   ~ 0
+Text Label 8900 4600 0    50   ~ 0
 LED_RED
-Text Label 6550 2100 0    50   ~ 0
+Text Label 8900 3700 0    50   ~ 0
 LED_GREEN
-Text Label 3450 5200 0    50   ~ 0
+Text Label 8900 4700 0    50   ~ 0
 LED_BLUE
 Text Label 7250 6650 2    50   ~ 0
 nRST
@@ -537,68 +473,60 @@ LCD_TWD
 Text Label 7250 6950 2    50   ~ 0
 LCD_DISP
 Text Label 7850 6950 0    50   ~ 0
-SPI0_NPCS0
-Text Label 7250 7050 2    50   ~ 0
-SPI0_MISO
-Text Label 7850 7050 0    50   ~ 0
-SPI0_MOSI
-Text Label 7250 7150 2    50   ~ 0
-SPI0_SPCK
-Text Label 7850 7150 0    50   ~ 0
 LCD_DEN
-Text Label 7250 7250 2    50   ~ 0
+Text Label 7250 7050 2    50   ~ 0
 LCD_HSYNC
-Text Label 7850 7250 0    50   ~ 0
+Text Label 7850 7050 0    50   ~ 0
 LCD_VSYNC
-Text Label 7250 7350 2    50   ~ 0
+Text Label 7250 7150 2    50   ~ 0
 LCD_PCK
-Text Label 7850 7350 0    50   ~ 0
+Text Label 7850 7150 0    50   ~ 0
 LCD_DAT0
-Text Label 7250 7450 2    50   ~ 0
+Text Label 7250 7250 2    50   ~ 0
 LCD_DAT1
-Text Label 7850 7450 0    50   ~ 0
+Text Label 7850 7250 0    50   ~ 0
 LCD_DAT2
-Text Label 7250 7550 2    50   ~ 0
+Text Label 7250 7350 2    50   ~ 0
 LCD_DAT3
-Text Label 7850 7550 0    50   ~ 0
+Text Label 7850 7350 0    50   ~ 0
 LCD_DAT4
-Text Label 7250 7650 2    50   ~ 0
+Text Label 7250 7450 2    50   ~ 0
 LCD_DAT5
-Text Label 7850 7650 0    50   ~ 0
+Text Label 7850 7450 0    50   ~ 0
 LCD_DAT6
-Text Label 7250 7750 2    50   ~ 0
+Text Label 7250 7550 2    50   ~ 0
 LCD_DAT7
-Text Label 7850 7750 0    50   ~ 0
+Text Label 7850 7550 0    50   ~ 0
 LCD_DAT8
-Text Label 7250 7850 2    50   ~ 0
+Text Label 7250 7650 2    50   ~ 0
 LCD_DAT9
-Text Label 7850 7850 0    50   ~ 0
+Text Label 7850 7650 0    50   ~ 0
 LCD_DAT10
-Text Label 7250 7950 2    50   ~ 0
+Text Label 7250 7750 2    50   ~ 0
 LCD_DAT11
-Text Label 7850 7950 0    50   ~ 0
+Text Label 7850 7750 0    50   ~ 0
 LCD_DAT12
-Text Label 7250 8050 2    50   ~ 0
+Text Label 7250 7850 2    50   ~ 0
 LCD_DAT13
-Text Label 7850 8050 0    50   ~ 0
+Text Label 7850 7850 0    50   ~ 0
 LCD_DAT14
-Text Label 7250 8150 2    50   ~ 0
+Text Label 7250 7950 2    50   ~ 0
 LCD_DAT15
-Text Label 7850 8150 0    50   ~ 0
+Text Label 7850 7950 0    50   ~ 0
 LCD_DAT16
-Text Label 7250 8250 2    50   ~ 0
+Text Label 7250 8050 2    50   ~ 0
 LCD_DAT17
-Text Label 7850 8250 0    50   ~ 0
+Text Label 7850 8050 0    50   ~ 0
 LCD_DAT18
-Text Label 7250 8350 2    50   ~ 0
+Text Label 7250 8150 2    50   ~ 0
 LCD_DAT19
-Text Label 7850 8350 0    50   ~ 0
+Text Label 7850 8150 0    50   ~ 0
 LCD_DAT20
-Text Label 7250 8450 2    50   ~ 0
+Text Label 7250 8250 2    50   ~ 0
 LCD_DAT21
-Text Label 7850 8450 0    50   ~ 0
+Text Label 7850 8250 0    50   ~ 0
 LCD_DAT22
-Text Label 7250 8550 2    50   ~ 0
+Text Label 7250 8350 2    50   ~ 0
 LCD_DAT23
 $Comp
 L power:+3.3V #PWR02
@@ -623,14 +551,14 @@ F 3 "" H 7850 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x21_Odd_Even J1
+L Connector_Generic:Conn_02x19_Odd_Even J1
 U 1 1 5C8DA334
-P 7500 7550
-F 0 "J1" H 7550 8650 50  0000 C CNN
-F 1 "Conn_LCD" H 7550 6450 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x21_P1.27mm_Vertical" H 7500 7550 50  0001 C CNN
-F 3 "~" H 7500 7550 50  0001 C CNN
-	1    7500 7550
+P 7500 7450
+F 0 "J1" H 7550 8550 50  0000 C CNN
+F 1 "Conn_LCD" H 7550 6350 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x19_P1.27mm_Vertical_SMD" H 7500 7450 50  0001 C CNN
+F 3 "~" H 7500 7450 50  0001 C CNN
+	1    7500 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -672,10 +600,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 8350 7250 8350
 Wire Wire Line
-	7300 8450 7250 8450
-Wire Wire Line
-	7300 8550 7250 8550
-Wire Wire Line
 	7800 6550 7850 6550
 Wire Wire Line
 	7800 6650 7850 6650
@@ -711,21 +635,13 @@ Wire Wire Line
 	7800 8150 7850 8150
 Wire Wire Line
 	7800 8250 7850 8250
-Wire Wire Line
-	7800 8350 7850 8350
-Wire Wire Line
-	7800 8450 7850 8450
-NoConn ~ 7800 8550
+NoConn ~ 7800 8350
 Text Label 8900 2400 0    50   ~ 0
 LCD_PWM
-Text Label 8900 4600 0    50   ~ 0
+Text Label 8900 4800 0    50   ~ 0
 IRQ2
 Text Label 11800 2500 0    50   ~ 0
 LCD_TWD
-Text Label 3450 3800 0    50   ~ 0
-SPI0_NPCS0
-Text Label 3450 3600 0    50   ~ 0
-SPI0_MOSI
 Text Label 8900 2900 0    50   ~ 0
 LCD_DEN
 Text Label 8900 2600 0    50   ~ 0
@@ -760,10 +676,6 @@ Text Label 11800 2600 0    50   ~ 0
 LCD_TWCK
 Text Label 8900 2500 0    50   ~ 0
 LCD_DISP
-Text Label 3450 3700 0    50   ~ 0
-SPI0_MISO
-Text Label 3450 3500 0    50   ~ 0
-SPI0_SPCK
 Text Label 8900 2700 0    50   ~ 0
 LCD_HSYNC
 Text Label 8900 2800 0    50   ~ 0
@@ -1049,9 +961,6 @@ F 3 "~" H 7500 9350 50  0001 C CNN
 	1    7500 9350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 11800 5200
-Text Notes 11850 5200 0    50   ~ 0
-ETH_INT_IRQ_PD31
 Text Label 8900 4900 0    50   ~ 0
 FLEXCOM4_IO0
 Text Label 8900 5000 0    50   ~ 0
@@ -1129,38 +1038,6 @@ Wire Wire Line
 	7800 10450 7850 10450
 Wire Wire Line
 	7800 10550 7850 10550
-NoConn ~ 3450 4400
-NoConn ~ 3450 4500
-NoConn ~ 3450 4600
-NoConn ~ 3450 4700
-NoConn ~ 8900 3200
-NoConn ~ 8900 3300
-NoConn ~ 8900 3400
-NoConn ~ 8900 3500
-NoConn ~ 8900 3600
-NoConn ~ 8900 3700
-NoConn ~ 8900 3800
-NoConn ~ 8900 4400
-NoConn ~ 8900 4500
-NoConn ~ 8900 4700
-NoConn ~ 8900 4800
-NoConn ~ 11800 4400
-NoConn ~ 11800 4500
-NoConn ~ 11800 4600
-NoConn ~ 11800 4700
-NoConn ~ 11800 2700
-NoConn ~ 11800 2800
-NoConn ~ 11800 2900
-NoConn ~ 11800 3000
-NoConn ~ 11800 3100
-NoConn ~ 11800 3200
-NoConn ~ 11800 3300
-NoConn ~ 11800 3400
-NoConn ~ 11800 3500
-NoConn ~ 11800 3600
-NoConn ~ 11800 3700
-NoConn ~ 11800 3800
-NoConn ~ 11800 3900
 Text Label 11800 2400 0    50   ~ 0
 DBGU_TX
 Text Label 11800 2300 0    50   ~ 0
@@ -1325,4 +1202,41 @@ F6 "USBA_D-" B R 3150 10200 50
 F7 "USBB_D+" B R 3150 10400 50 
 F8 "USBB_D-" B R 3150 10500 50 
 $EndSheet
+NoConn ~ 11800 5200
+NoConn ~ 11800 4400
+NoConn ~ 11800 4500
+NoConn ~ 11800 4600
+NoConn ~ 11800 4700
+NoConn ~ 11800 3500
+NoConn ~ 11800 3800
+NoConn ~ 11800 3900
+NoConn ~ 11800 2800
+NoConn ~ 11800 2900
+NoConn ~ 11800 3000
+NoConn ~ 11800 3100
+NoConn ~ 11800 3200
+NoConn ~ 11800 3300
+NoConn ~ 8900 3000
+NoConn ~ 6550 2100
+NoConn ~ 8900 3200
+NoConn ~ 8900 3300
+NoConn ~ 8900 3400
+NoConn ~ 8900 3500
+NoConn ~ 8900 3600
+NoConn ~ 8900 3800
+NoConn ~ 8900 4400
+NoConn ~ 8900 4500
+NoConn ~ 3450 3100
+NoConn ~ 3450 3300
+NoConn ~ 3450 3500
+NoConn ~ 3450 3600
+NoConn ~ 3450 3700
+NoConn ~ 3450 3800
+NoConn ~ 3450 4400
+NoConn ~ 3450 4500
+NoConn ~ 3450 4600
+NoConn ~ 3450 4700
+NoConn ~ 3450 4800
+NoConn ~ 3450 5000
+NoConn ~ 3450 5200
 $EndSCHEMATC
